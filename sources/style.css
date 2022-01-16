@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: white;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    background-color: #f1f5f8;
+}
+
+.header {
+    color: hsl(205, 78%, 60%);
+}
+
+ul li {
+    border-radius: 5px;
+    padding: 3px;
+    transition: all 0.3s linear;
+}
+
+ul li:hover {
+    color: hsl(205, 78%, 60%);
+    cursor: pointer;
+}
+
+.navBarItems {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navBarItems ul {
+    width: 200px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main {
+    min-height: 80vh;
+    display: grid;
+    place-items: center;
+}
+
+.colorName h1 {
+    margin: 15px;
+    padding: 15px;
+    font-size: 2.5rem;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+}
+
+.btnChangeColor {
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+    display: inline-block;
+    border: 2px solid black;
+    padding: 0.75rem 1.25rem;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: all 0.3s linear;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.btnChangeColor:hover {
+    color: white;
+    background-color: black;
+}
